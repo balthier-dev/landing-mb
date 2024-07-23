@@ -25,6 +25,7 @@ const ContentBlock = ({
   t,
   id,
   direction,
+  contentsecond
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -49,6 +50,7 @@ const ContentBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
+              <Content>{contentsecond}</Content>
               {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&

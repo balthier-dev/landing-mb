@@ -47,7 +47,7 @@ const Footer = ({ t }: { t: TFunction }) => {
 
   return (
     <>
-      <FooterSection>
+      {/* <FooterSection>
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
@@ -109,8 +109,8 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
           </Row>
         </Container>
-      </FooterSection>
-      <Extra>
+      </FooterSection> */}
+      <Extra style={{background: "#A44229"}}>
         <Container border={true}>
           <Row
             justify="space-between"
@@ -120,7 +120,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="BOON-RUENG-2.png"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
@@ -128,7 +128,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              <SocialLink
+              {/* <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
                 src="github.svg"
               />
@@ -155,7 +155,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>

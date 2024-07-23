@@ -1,13 +1,13 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "หมอบุญเรือง By D Nine Herbal",
+  "text": "วิสาหกิจชุมชนหมอบุญเรืองแพทย์แผนไทย",
   "button": [
     {
-      "title": "Explore"
+      "title": "ดูสินค้า"
     },
     {
-      "title": "Learn more",
-      "color": "#fff"
+      "title": "เรียนรู้เพิ่มเติม",
+      "color": "#EDE9E6"
     }
   ]
 }

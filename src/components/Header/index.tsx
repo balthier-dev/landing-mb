@@ -55,18 +55,18 @@ const Header = ({ t }: { t: TFunction }) => {
   };
 
   return (
-    <HeaderSection>
+    <HeaderSection style={{background: "#A44229"}}>
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="BOON-RUENG-2.png" width="141px" height="74px" />
           </LogoContainer>
-          <NotHidden>
+          {/* <NotHidden>
             <MenuItem />
           </NotHidden>
           <Burger onClick={toggleButton}>
             <Outline />
-          </Burger>
+          </Burger> */}
         </Row>
         <Drawer closable={false} open={visible} onClose={toggleButton}>
           <Col style={{ marginBottom: "2.5rem" }}>

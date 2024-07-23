@@ -1,16 +1,5 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
-  "section": [
-    {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
-    },
-    {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
-    }
-  ]
+  "title": "ผู้คิดค้นสูตร",
+  "text": "นายบุญเรือง กอนจันดา เป็นบุคคลสำคัญของแบรนด์ “บุญเรือง” ได้รับใบอนุญาตแพทย์แผนไทยในปี พ.ศ. 2546 เขาเป็นเจ้าของสูตรพิมเสนน้ำละมุน แบรนด์หมอบุญเรือได้คิดค้นสูตรยาดมสมุนไพรไทยที่เป็นเอกลักษณ์และมีคุณประโยชน์สูง ด้วยความมุ่งมั่นที่จะอนุรักษ์และพัฒนาภูมิปัญญาท้องถิ่น นายบุญเรืองไม่เพียงแค่ผลิตยาแผนโบราณเท่านั้น",
+  "textsecond": "แต่ยังมอบความรู้และสูตรยาดมพิมเสนน้ำละมุนให้กับคนรุ่นหลาน เพื่อให้พวกเขาสามารถต่อยอดและพัฒนาสินค้าได้อย่างมีประสิทธิภาพ นายบุญเรืองเชื่อมั่นในความสามารถของคนรุ่นใหม่ที่จะนำเอาภูมิปัญญาดั้งเดิมมาปรับใช้และสร้างสรรค์สิ่งใหม่ ๆ เพื่อให้แพทย์แผนไทยและสมุนไพรไทยยังคงอยู่ในสังคมไทย"
 }

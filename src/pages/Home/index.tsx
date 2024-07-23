@@ -21,41 +21,41 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="product.jpg"
         id="intro"
       />
-      <MiddleBlock
+      {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      />
+      /> */}
       <ContentBlock
         direction="left"
         title={AboutContent.title}
         content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
+        contentsecond={AboutContent.textsecond}
+        icon="1.jfif"
         id="about"
       />
       <ContentBlock
         direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="2.jfif"
         id="mission"
       />
       <ContentBlock
         direction="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
+        icon="3.jfif"
         id="product"
       />
-      <Contact
+      {/* <Contact
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
-      />
+      /> */}
     </Container>
   );
 };
