@@ -21,7 +21,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="product.jpg"
+        icon="1.jpeg"
         id="intro"
       />
       {/* <MiddleBlock
@@ -34,21 +34,21 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         contentsecond={AboutContent.textsecond}
-        icon="1.jfif"
+        icon="br.jpeg"
         id="about"
       />
       <ContentBlock
         direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="2.jfif"
+        icon="2.jpeg"
         id="mission"
       />
       <ContentBlock
         direction="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="3.jfif"
+        icon="3.jpeg"
         id="product"
       />
       {/* <Contact
